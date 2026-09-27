@@ -1,0 +1,29 @@
+:root {
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #222a22;
+  background-color: #e9e8df;
+  background-image: radial-gradient(#b8b9ab 0.6px, transparent 0.6px);
+  background-size: 18px 18px;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-width: 320px;
+  min-height: 100%;
+  margin: 0;
+}
+
+a:focus-visible,
+input:focus-visible {
+  outline: 2px solid #df674d;
+  outline-offset: 3px;
+}
